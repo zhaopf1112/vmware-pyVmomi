@@ -1,0 +1,59 @@
+esxi_user: 'xxx'
+esxi_pass: 'xxx'
+esxi_port: 443
+map_counter:
+  0: esxi.cpu.usage
+  4: esxi.cpu.usagemhz
+  10: esxi.cpu.wait
+  11: esxi.cpu.ready
+  12: esxi.cpu.used
+  13: esxi.cpu.idle
+  14: esxi.cpu.swapwait
+  15: esxi.cpu.utilization
+  23: esxi.cpu.totalCapacity
+  24: esxi.cpu.latency
+  25: esxi.cpu.entitlement
+  26: esxi.cpu.demand
+  65540: esxi.mem.granted
+  65544: esxi.mem.active
+  65548: esxi.mem.shared
+  65580: esxi.mem.state
+  65610: esxi.mem.consumed
+  65625: esxi.mem.totalCapacity
+  65631: esxi.mem.llSwapUsed
+  65632: esxi.mem.llSwapInRate
+  65633: esxi.mem.llSwapOutRate
+  65638: esxi.mem.llSwapIn
+  65642: esxi.mem.llSwapOut
+  131072: esxi.disk.usage
+  131076: esxi.disk.numberRead
+  131077: esxi.disk.numberWrite
+  131078: esxi.disk.read
+  131079: esxi.disk.write
+  131083: esxi.disk.deviceReadLatency
+  131085: esxi.disk.totalReadLatency
+  131087: esxi.disk.deviceWriteLatency
+  131089: esxi.disk.totalWriteLatency
+  131093: esxi.disk.totalLatency
+  131094: esxi.disk.queueLatency
+  131097: esxi.disk.numberReadAveraged
+  131098: esxi.disk.numberWriteAveraged
+  196612: esxi.net.packetsRx
+  196613: esxi.net.packetsTx
+  196614: esxi.net.received
+  196615: esxi.net.transmitted
+  196616: esxi.net.droppedRx
+  196617: esxi.net.droppedTx
+  196624: esxi.net.errorsRx
+  196625: esxi.net.errorsTx
+  196620: esxi.net.broadcastRx
+  196622: esxi.net.multicastRx
+vms_counter:
+  0: vm.cpu.usage
+  11: vm.cpu.ready
+  65536: vm.mem.usage
+  131085: vm.disk.totalreadlatency
+  131089: vm.disk.totalwritelatency
+  196614: vm.net.received
+  196615: vm.net.transmit
+  262145: vm.sys.heartbeat
